@@ -11,7 +11,11 @@ const router = createBrowserRouter([
     element: <Pokes />,
   },
   {
-    path: "/Ability",
+    path: "/pokes",
+    element: <Pokes />,
+  },
+  {
+    path: "/pokes/ability",
     element: <Ability />,
   }
 ]);

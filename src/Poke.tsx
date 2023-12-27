@@ -14,7 +14,6 @@ function Poke(props:{name: string}) {
         setPokeData(json)
       }
     }).catch(error => {
-      // Handle any errors
       console.log(error);
   });
     },[name])
