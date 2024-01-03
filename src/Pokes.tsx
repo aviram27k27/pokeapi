@@ -12,7 +12,7 @@ function Pokes() {
         onChange={(e) => setName(e.target.value)}
        value={name}/>
       
-      <Poke name={name}/>
+      <Poke name={name} health={50}/>
     </>
   )
 }

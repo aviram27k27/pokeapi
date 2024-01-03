@@ -4,6 +4,7 @@ import './index.css'
 import Pokes from './Pokes.tsx';
 import Ability from './Ability.tsx';
 import { createBrowserRouter,RouterProvider } from "react-router-dom";
+import Fight from './Fight.tsx';
 
 const router = createBrowserRouter([
   {
@@ -13,6 +14,10 @@ const router = createBrowserRouter([
   {
     path: "/pokes",
     element: <Pokes />,
+  },
+  {
+    path: "/fight",
+    element: <Fight />,
   },
   {
     path: "/pokes/ability",
